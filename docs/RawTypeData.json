@@ -10971,6 +10971,951 @@
       "keywords": "translate, atf",
       "weight": 0,
       "description": null
-    }
+    },
+    {
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Application.Application",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Application.Application.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Application.Application",
+  "parameters": null,
+  "itemType": "create",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Application.Initialize",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Application.Initialize.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Application.Initialize",
+  "parameters": null,
+  "itemType": "action",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.ConnectSQLDatabase",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.ConnectSQLDatabase.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.ConnectSQLDatabase@string,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Connects to SQL Database with given parameters.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.ConnectExcelDatabase",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.ConnectExcelDatabase.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.ConnectExcelDatabase@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Connects to a given Excel file as a database.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.ConnectCSVDatabase",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.ConnectCSVDatabase.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.ConnectCSVDatabase@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Connects to a CSV file as a database",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.GetData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.GetData.string.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.GetData@string",
+  "parameters": "(tableName)",
+  "itemType": "action",
+  "description": "Gets Table data from the database as per the given a table name.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.GetData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.GetData.string-string1.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.GetData@string,string[]",
+  "parameters": "(tableName, columnNames)",
+  "itemType": "action",
+  "description": "Gets table data from a database as per the given table name and columns.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.GetColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.GetColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.GetColumns@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets column names available on the given table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.GetTableSchema",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.GetTableSchema.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.GetTableSchema@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Get the table schema as a dictionary object having details of column name and corresponding data type.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.GetTables",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.GetTables.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.GetTables",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets list of all tables in the database.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Database.WriteData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Database.WriteData.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Database.WriteData@Factobi.Data.Table,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Writes the given table data into the connected database.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.CreateWithSchema",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.CreateWithSchema.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.CreateWithSchema@var[]..[]",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a new table object with a schema dictionary.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.FromJson",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.FromJson.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.FromJson@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.FromDictionary",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.FromDictionary.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.FromDictionary@var[]..[]",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates Table from Dictionary object where keys are the column names and values are a list of objects for the column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.ToDictionary",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.ToDictionary.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.ToDictionary",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Returns a dictionary containing all data from the table. The keys are column names and value is the column values in all the rows.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.Schema",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.Schema.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.Schema",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Gets schema of this table object.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.Columns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.Columns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.Columns",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Gets name of all the columns in this Table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.RowCount",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.RowCount.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.RowCount",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Returns total number of rows in the table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.ColumnCount",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.ColumnCount.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.ColumnCount",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Returns total number of columns in the table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.DeleteBlankRows",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.DeleteBlankRows.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.DeleteBlankRows@string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Removes rows from the table where for the given Columns there are no values.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.GetColumnData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.GetColumnData.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.GetColumnData@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets all data in the table for a given column name.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.GetRowData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.GetRowData.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.GetRowData@int",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets all the data for the row at given index.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.GetDataAsString",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.GetDataAsString.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.GetDataAsString@int,bool,bool",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets data formatted as a string, useful when data is not well structured.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.Select",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.Select.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.Select@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Performs a select query with the given filter expression to get filtered data from the table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.GetData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.GetData.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.GetData@bool,int",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Gets all the data in a table as a 2D array of data.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.InnerJoin",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.InnerJoin.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.InnerJoin@Factobi.Data.Table,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Performs InnerJoin with other table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.UpdateColumnDataType",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.UpdateColumnDataType.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.UpdateColumnDataType",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Tries to update the column data type based on the column data when the current data type is System.Object",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.MergeTables",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.MergeTables.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.MergeTables@Factobi.Data.Table[],bool",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Merges a list of tables into one table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.ColumnStatistics",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.ColumnStatistics.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.ColumnStatistics@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Provides statistics of a given column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.DetectOutliers",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.DetectOutliers.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.DetectOutliers@string,Factobi.Data.OutlierMethod",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Detects outliers and returns rows those are outliers based on a given method.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.DeleteRowsWithValues",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.DeleteRowsWithValues.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.DeleteRowsWithValues@string,var[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Deletes rows with given values in a specific column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.DeleteRows",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.DeleteRows.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.DeleteRows@int,int",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Deletes rows starting with index 'start' up to the index 'end'.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.PromoteFirstRowAsHeader",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.PromoteFirstRowAsHeader.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.PromoteFirstRowAsHeader",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Returns a new Table by promoting the first row of this table as column headers.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.FillDown",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.FillDown.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.FillDown@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Fills null values with the value above the null value row.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.FillUp",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.FillUp.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.FillUp@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Fills null values with the value below the null value row.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.RenameColumn",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.RenameColumn.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.RenameColumn@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Renames a column with a new name.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.RenameColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.RenameColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.RenameColumns@var[]..[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Renames the a list of columns from the table for a given list of key value pairs, where the key is existing column name and value is the new column name to be renamed with.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.ReorderColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.ReorderColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.ReorderColumns@string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Reorders the columns of the table based on the sequence of column names.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.InsertColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.InsertColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.InsertColumns@var[]..[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Inserts new columns from Dictionary object where keys are the column names and values are a list of objects for the column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.InsertColumnWithValues",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.InsertColumnWithValues.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.InsertColumnWithValues@string,var[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a new Table by inserting a new column into the current table with the given dataset.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.InsertColumnWithExpression",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.InsertColumnWithExpression.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.InsertColumnWithExpression@string,bool,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a new table by inserting a new column that is driven by expression dependent on other columns in the table. For Example: If the table has columns Quantity and Unit Price then user can insert a new column Amount with expression \"Quantity * Unit Price\"",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.InsertColumnWithExtractText",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.InsertColumnWithExtractText.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.InsertColumnWithExtractText@string[],string[],string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a new table by Inserting a new column that has values extracted from a reference column using a regular expression.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.MergeColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.MergeColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.MergeColumns@string[],string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Merges the values of given columns using a given separator and creates a new table with rest of the columns and the merged column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.SplitColumn",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.SplitColumn.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.SplitColumn@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Splits the given column into new columns by splitting the column values using separator. After the split original column will be removed and new columns will be added with columnName suffixed with counter e.g. {columnName}1, {columnName}2 etc.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.SplitColumnwithRegularExpression",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.SplitColumnwithRegularExpression.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.SplitColumnwithRegularExpression@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Splits the given column into new columns by splitting the column values using a regular expression. After the split original column will be removed and new columns will be added with columnName suffixed with counter e.g. {columnName}1, {columnName}2 etc.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.SetColumnDefaultValue",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.SetColumnDefaultValue.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.SetColumnDefaultValue@string,var",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Sets default value for a given column.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.Clone",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.Clone.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.Clone@string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a new Table by cloning data of the given columns only.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.DeleteColumns",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.DeleteColumns.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.DeleteColumns@string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a new column by removing the given columns from the current table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.GetDataClusters",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.GetDataClusters.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.GetDataClusters@int",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Identifies clusters of data in the table, handy when table has many empty cells.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.Transpose",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.Transpose.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.Transpose@bool",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Transposes this table by converting rows into columns. The new table returned will have auto generated column names.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.CreatePivotTable",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.CreatePivotTable.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.CreatePivotTable@string,string,string,Factobi.Data.CalculationType",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Creates a pivot table from the current Table based on specified fields.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.Table.UnPivot",
+  "iconUrl": "http://localhost/icons/Factobi.Data.Table.UnPivot.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.Table.UnPivot@string[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Performs un pivot operation om the input table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.OutlierMethod.IQR",
+  "iconUrl": "http://localhost/icons/Factobi.Data.OutlierMethod.IQR.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.OutlierMethod.IQR",
+  "parameters": null,
+  "itemType": "query",
+  "description": "The IQR method identifies outliers based on the spread of the data, where lower bound is defined as Q1 - 1.5*IQR and the upper bound is defined as Q3 + 1.5*IQR.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.OutlierMethod.ZScore",
+  "iconUrl": "http://localhost/icons/Factobi.Data.OutlierMethod.ZScore.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.OutlierMethod.ZScore",
+  "parameters": null,
+  "itemType": "query",
+  "description": "The Z-score method identifies outliers by measuring how many standard deviations a data point is away from the mean of the dataset. This method assumes any data more than 3 standard deviation away is an outlier.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.Sum",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.Sum.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.Sum",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.Count",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.Count.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.Count",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.Average",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.Average.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.Average",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.Min",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.Min.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.Min",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.Max",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.Max.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.Max",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.CalculationType.StdDev",
+  "iconUrl": "http://localhost/icons/Factobi.Data.CalculationType.StdDev.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.CalculationType.StdDev",
+  "parameters": null,
+  "itemType": "query",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Clustering.Clustering",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Clustering.Clustering.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Clustering.Clustering",
+  "parameters": null,
+  "itemType": "create",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Clustering.KMeansCluster",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Clustering.KMeansCluster.double2-int.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Clustering.KMeansCluster@double[][],int",
+  "parameters": "(data, numberOfClusters)",
+  "itemType": "action",
+  "description": "Creates a KMeans cluster with the given data.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Clustering.KMeansCluster",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Clustering.KMeansCluster.Table-GenerativeAIModel-int.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Clustering.KMeansCluster@Factobi.Data.Table,Factobi.Data.AI.GenerativeAIModel,int",
+  "parameters": "(table, model, numberOfClusters)",
+  "itemType": "action",
+  "description": "Creates KMeans cluster of rows from the given table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIModel.CreateOpenAIModel",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIModel.CreateOpenAIModel.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIModel.CreateOpenAIModel@string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates OpenAI language model.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIModel.CreateAzureOpenAIModel",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIModel.CreateAzureOpenAIModel.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIModel.CreateAzureOpenAIModel@string,string,string,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates AzureOpenAI language model.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIModel.CreateAIModelWithConfig",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIModel.CreateAIModelWithConfig.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIModel.CreateAIModelWithConfig@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates an instance of AzureOpenAILanguageModel with a config file.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIAgent.Create",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIAgent.Create.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIAgent.Create@Factobi.Data.AI.Tool[],Factobi.Data.AI.GenerativeAIModel,string,int,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a GenerativeAIAgent which can perform a given objective with the help of tools available with it.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIAgent.PlanAndExecute",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIAgent.PlanAndExecute.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIAgent.PlanAndExecute@string,double",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Executes a given objective.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.GenerativeAIAgent.AddFeedback",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.GenerativeAIAgent.AddFeedback.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.GenerativeAIAgent.AddFeedback@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Users can call this method to provide feedback to the agent about the execution of current action step. Based on the feedback agent can execute next action or return an action step.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.Name",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.Name.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.Name",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Name of the tool",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.Description",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.Description.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.Description",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Description of this tool",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.Parameters",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.Parameters.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.Parameters",
+  "parameters": null,
+  "itemType": "query",
+  "description": "Key value pairs of parameter name and it's description.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.ParameterType",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.ParameterType.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.ParameterType@string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Returns the type of a given input parameter.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.Execute",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.Execute.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.Execute@var[]..[]",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Executes the given tool with a given set of parameters.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreatePromptTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreatePromptTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreatePromptTool@string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a prompt tool based on a given prompt template. The input parameters to execute this tool is same as the variables defined in the input prompt template.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateQueryTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateQueryTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateQueryTool@string,Factobi.Data.AI.GenerativeAIModel,double,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a query tool to get response of the query using generative AI model. The input parameters to execute this tool is same as the variables defined in the input prompt template.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateToolsPipeline",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateToolsPipeline.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateToolsPipeline@Factobi.Data.AI.Tool[],string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a pipeline with a list of tools. A pipeline executes tools sequentially, where output of previous tools can be input of the next tool in the sequence. The input parameter to execute this tool is same as the input parameter of the first tool in the pipeline.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateMapReduceTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateMapReduceTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateMapReduceTool@Factobi.Data.AI.Tool,Factobi.Data.AI.Tool,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates MapReduce tool which can take a mapper tool to map the input collection to an intermediate data using mapper tool and then reduce the intermediate data to the final output using reducer tool. The mapper runs in parallel, hence mapper tool needs to ensure thread safety. The input parameter to execute this tool is the same as the input parameters of the mapper tool, however, each parameter is of array type in this case.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateCombineTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateCombineTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateCombineTool@string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a combine tool to combine an array of string using newline. The input parameter name to execute this tool is 'input'",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateBingSearchTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateBingSearchTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateBingSearchTool@int,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a bing search tool to search specific query. The input parameter name to execute this tool is 'query'.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateSemanticSearchTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateSemanticSearchTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateSemanticSearchTool@string,int,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a search tool for semantic search using a given vector database. The input parameter name to execute this tool is 'query'.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateVectorDatabaseForSemanticSearch",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateVectorDatabaseForSemanticSearch.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateVectorDatabaseForSemanticSearch@string,string,int,int",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Splits the texts from the given source into smaller chunks based on chunkSize parameter and serializes them to a vector database for semantic search.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateTextExtractorTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateTextExtractorTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateTextExtractorTool@string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a text extractor tool that extracts text from different files. Currently txt, csv and pdf files are supported. The input parameter to execute this tool is 'input'.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateDataExtractorTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateDataExtractorTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateDataExtractorTool@var[]..[],Factobi.Data.AI.GenerativeAIModel,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a tool that can extract data from an unstructured text using language model. The input parameter name to execute this tool is 'input'.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateSummarizerTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateSummarizerTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateSummarizerTool@string,string,Factobi.Data.AI.GenerativeAIModel,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a text summarizer tool with map reduce strategy. The input parameter to execute this tool is input.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateProcessExecutorTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateProcessExecutorTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateProcessExecutorTool@string,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a process executor tool to execute a given process with appropriate arguments.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Tool.CreateRAGQueryTool",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Tool.CreateRAGQueryTool.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Tool.CreateRAGQueryTool@string,Factobi.Data.AI.GenerativeAIModel,double,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a RAGQueryTool to provide answers to the query based on semantic context retrieval .",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractText",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractText.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractText@string,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Extracts text from the given document using OCR.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractJSON",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractJSON.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractJSON@string,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Extracts document structure, text and bounding box from the given document using OCR.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.CreateDigitalPDF",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.CreateDigitalPDF.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.CreateDigitalPDF@string,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Converts the given document, image file to a digitized PDF file.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.DetectLanguages",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.DetectLanguages.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.DetectLanguages@string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Detects the languages present in the given document.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.SplitDocuments",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.SplitDocuments.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.SplitDocuments@string,Factobi.Data.AI.Classifier,Factobi.Data.AI.IDExtractor,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Splits a given document using a page classifier model.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractData.string-varN-GenerativeAIModel-string-string.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractData@string,var[]..[],Factobi.Data.AI.GenerativeAIModel,string,string",
+  "parameters": "(documentPath, fieldDetails, model, outputJsonPath, languages)",
+  "itemType": "action",
+  "description": "Extracts data from the given document using the given field details.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractData",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractData.string-varN-varN-GenerativeAIModel-string-string.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractData@string,var[]..[],var[]..[],Factobi.Data.AI.GenerativeAIModel,string,string",
+  "parameters": "(documentPath, fieldDetails, tableFields, model, outputJsonPath, languages)",
+  "itemType": "action",
+  "description": "Extracts data from the given document using the given field details.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractObjects",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractObjects.string-string-string.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractObjects@string,string,string",
+  "parameters": "(documentPath, languages, ocrConfigPath)",
+  "itemType": "action",
+  "description": "Reads a given word document and returns its content as a dictionary of objects such as paragraphs and tables etc. from the document.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.DocumentAI.ExtractObjects",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.DocumentAI.ExtractObjects.string-varN-GenerativeAIModel-string-string.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.DocumentAI.ExtractObjects@string,var[]..[],Factobi.Data.AI.GenerativeAIModel,string,string",
+  "parameters": "(documentPath, fieldDetails, model, languages, ocrConfigPath)",
+  "itemType": "action",
+  "description": "Reads a given word document and returns its content as a dictionary of objects such as paragraphs and tables etc. from the document.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.CreateFromModel",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.CreateFromModel.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.CreateFromModel@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates a classifier object from a given model file.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.CreateWithGenerativeAI",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.CreateWithGenerativeAI.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.CreateWithGenerativeAI@var[]..[],Factobi.Data.AI.GenerativeAIModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "No description available",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.Classify",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.Classify.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.Classify@var,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Classifies the given document to a class.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.TrainWithDocuments",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.TrainWithDocuments.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.TrainWithDocuments@string,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Trains a classifier model from the given source of training dataset.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.TrainWithDataDictionary",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.TrainWithDataDictionary.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.TrainWithDataDictionary@var[]..[],string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Trains the classifier with a given data set.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.Classifier.TrainWithDataTable",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.Classifier.TrainWithDataTable.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.Classifier.TrainWithDataTable@Factobi.Data.Table,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Trains the classifier with data from a given table.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.IDExtractor.ExtractID",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.IDExtractor.ExtractID.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.IDExtractor.ExtractID@string,string,string",
+  "parameters": null,
+  "itemType": "action",
+  "description": "Extracts ID from the given source document.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.IDExtractor.CreateFromModel",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.IDExtractor.CreateFromModel.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.IDExtractor.CreateFromModel@string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Creates Id extractor based on the given model path.",
+  "keywords": ""
+},
+{
+  "fullyQualifiedName": "Factobi.Data.Factobi.Data.AI.IDExtractor.Train",
+  "iconUrl": "http://localhost/icons/Factobi.Data.AI.IDExtractor.Train.Small?path=Factobi.Data.dll",
+  "contextData": "Factobi.Data.AI.IDExtractor.Train@string,string,string,string",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Trains id extractor model based on the data in the input csv file.",
+  "keywords": ""
+}
   ]
 }
