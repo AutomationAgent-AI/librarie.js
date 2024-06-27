@@ -11916,6 +11916,60 @@
   "itemType": "create",
   "description": "Trains id extractor model based on the data in the input csv file.",
   "keywords": ""
+},
+    {
+  "fullyQualifiedName": "Display.Charts.Bar Chart",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.BarChartNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.BarChartNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a new Bar Chart",
+  "keywords": "CoreNodeModelsWpf.Charts.BarChart, Bar Chart, bar, barchart"
+},
+{
+  "fullyQualifiedName": "Display.Charts.Index-Value Line Plot",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.BasicLineChartNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.BasicLineChartNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a new Basic Line Chart",
+  "keywords": "CoreNodeModelsWpf.Charts.Index-ValueLinePlot, Index-Value Line Plot, index, indexvalue, indexvaluelineplot"
+},
+{
+  "fullyQualifiedName": "Display.Charts.Heat Series Plot",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.HeatSeriesNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.HeatSeriesNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a heat series plot",
+  "keywords": "CoreNodeModelsWpf.Charts.HeatSeriesPlot, Heat Series Plot, heat, heatseries, heatseriesplot"
+},
+{
+  "fullyQualifiedName": "Display.Charts.Pie Chart",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.PieChartNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.PieChartNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a new Pie Chart",
+  "keywords": "CoreNodeModelsWpf.Charts.PieChart, Pie Chart, pie, piechart"
+},
+{
+  "fullyQualifiedName": "Display.Charts.Scatter Plot",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.ScatterPlotNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.ScatterPlotNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a scatter plot",
+  "keywords": "CoreNodeModelsWpf.Charts.ScatterPlot, Scatter Plot, scatter, scatterplot"
+},
+{
+  "fullyQualifiedName": "Display.Charts.XY Line Plot",
+  "iconUrl": "http://localhost/icons/CoreNodeModelsWpf.Charts.XYLineChartNodeModel.Small?path=C:\\Data\\02_Code\\GitHub\\Factobi\\FactobiCore\\nodes\\CoreNodeModelsWpf.dll",
+  "contextData": "CoreNodeModelsWpf.Charts.XYLineChartNodeModel",
+  "parameters": null,
+  "itemType": "create",
+  "description": "Create a new XY line plot",
+  "keywords": "CoreNodeModelsWpf.Charts.XYLinePlot, XY Line Plot, lineplot, xylineplot"
 }
   ]
 }
