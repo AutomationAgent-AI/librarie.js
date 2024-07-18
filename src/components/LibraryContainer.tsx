@@ -387,24 +387,34 @@ export class LibraryContainer extends React.Component<LibraryContainerProps, Lib
             this.props.libraryController.request(eventName);
             return (<div>This is LibraryContainer</div>);
         }
-
+    
         try {
             let sections: React.ReactNode = null;
             let index = 0;
+    
             if (!this.state.inSearchMode) {
                 sections = this.generatedSections.map(data => {
-                    return <LibraryItem
+                    const isFirstChild = index === 0; // Check if it's the first child
+                    return (
+                        <LibraryItem
+                            key={index++}
+                            libraryContainer={this}
+                            data={data}
+                            showItemSummary={this.state.showItemSummary}
+                            tooltipContent={this.state.tooltipContent}
+                            style={isFirstChild ? { backgroundColor: 'rgb(14, 165, 233)' } : {}}
+                        />
+                    );
+                });
+            } else if (this.state.structured) {
+                sections = this.searchResultItems.map(item =>
+                    <LibraryItem
                         key={index++}
+                        data={item}
                         libraryContainer={this}
-                        data={data}
                         showItemSummary={this.state.showItemSummary}
                         tooltipContent={this.state.tooltipContent}
                     />
-                }
-                );
-            } else if (this.state.structured) {
-                sections = this.searchResultItems.map(item =>
-                    <LibraryItem key={index++} data={item} libraryContainer={this} showItemSummary={this.state.showItemSummary} tooltipContent={this.state.tooltipContent} />
                 );
             } else {
                 sections = this.searchResultItems.map(item =>
@@ -420,14 +430,14 @@ export class LibraryContainer extends React.Component<LibraryContainerProps, Lib
                     />
                 );
             }
-
+    
             const searchBar = <SearchBar
                 onCategoriesChanged={this.onCategoriesChanged}
                 onDetailedModeChanged={this.onDetailedModeChanged}
                 onTextChanged={this.onTextChanged}
                 categories={this.searcher?.getDisplayedCategories() ?? []}
             />;
-
+    
             return (
                 <div className="LibraryContainer">
                     {searchBar}
@@ -442,4 +452,4 @@ export class LibraryContainer extends React.Component<LibraryContainerProps, Lib
             return (<div>Exception thrown: {exception.message}</div>);
         }
     }
-}
+}    

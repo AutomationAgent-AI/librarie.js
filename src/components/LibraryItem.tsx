@@ -30,6 +30,7 @@ export interface LibraryItemProps {
     showItemSummary: boolean,
     onItemWillExpand?: Function,
     tooltipContent?: any
+    style?: React.CSSProperties; 
 }
 
 export interface LibraryItemState {
@@ -139,12 +140,15 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
 
             // Break item list down into sub-lists based on the type of each item.
             let groupedItems = new GroupedItems(LibraryUtilities.sortItemsByText(this.props.data.childItems));
+            console.log(groupedItems);
 
             // There are some leaf nodes (e.g. methods).
             clusteredElements = this.getClusteredElements(groupedItems);
+            
 
             // There are intermediate child items.
             nestedElements = this.getNestedElements(groupedItems);
+            
         }
 
         // Indent one level for clustered and nested elements
@@ -157,7 +161,7 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
                 {header}
                 <div className={"LibraryItemBodyContainer"}>
                     
-                    <div className={`LibraryItemBodyElements ${bodyIndentation}`} >
+                    <div className={`LibraryItemBodyElements`} >
                         {clusteredElements}
                         {nestedElements}
                     </div>
@@ -233,14 +237,15 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
         };
 
         enum ArrowPositions {
-            "RIGTH" = "Right",
-            "DOWN" = "Down"
+            "RIGHT" = "Right",
+            "DOWN" = "Down",
+             "UP" = "Up",
         }
 
-        let arrowPosition = ArrowPositions.RIGTH;
+        let arrowPosition = ArrowPositions.DOWN;
 
         if (this.state.expanded) {
-            arrowPosition = ArrowPositions.DOWN;
+            arrowPosition = ArrowPositions.UP;
         }
         
         if (this.props.data.itemType == "category") {
@@ -265,7 +270,7 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
                     onClick={this.onLibraryItemClicked}
                     onKeyDown={this.onLibraryItemClicked}
                     onMouseEnter={this.onLibraryItemMouseEnter} onMouseLeave={this.onLibraryItemMouseLeave}>
-                    {arrow}
+                    
                     {this.props.data.itemType === "section" ? null : iconElement}
                     <div className="LibraryItemTextWrapper">
                     <div className="TextBox">
@@ -274,6 +279,7 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
                     </div>
                     </div>
                     {this.props.data.itemType === "section" ? iconElement : null}
+                    {arrow}
                 </div>
             );
         }
@@ -441,7 +447,7 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
         // @ts-ignore 
         this.props.libraryContainer.state.shouldOverrideExpandedState = true
     }
-
+ 
     onSectionIconClicked(event: any) {
         let libraryContainer = this.props.libraryContainer;
         libraryContainer.raiseEvent(libraryContainer.props.libraryController.SectionIconClickedEventName, this.props.data.text);

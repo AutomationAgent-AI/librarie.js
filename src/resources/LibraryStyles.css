@@ -10,7 +10,7 @@
 }
 
 html {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 	cursor: default;
-	background-color: #2a2a2a;
+	background-color: black;
 	color: #f5f5f5;
 }
 
@@ -55,7 +55,7 @@ button {
 }
 
 .LibraryItemContainerCategory.expanded > .LibraryItemBodyContainer {
-	margin: 1rem 0rem 1.5rem 0rem;
+	margin: 0rem 0rem 0rem 0rem;
 }
 
 .LibraryItemContainerCategory.expanded .LibraryItemBodyContainer .LibraryItemBodyElements.BodyIndentation .LibraryItemBody .LibraryItemContainerGroup.expanded .LibraryItemHeader {
@@ -63,11 +63,11 @@ button {
 }
 
 .LibraryItemContainerCategory .LibraryItemHeader svg.ArrowIcon {
-	margin: 0px 14px 0px 0px;
+	margin: 0px 14px 0px 10px;
 }
 
 .LibraryItemContainerCategory.expanded .LibraryItemBodyElements svg.ArrowIcon {
-	margin: 0px 14px 0px 14px;
+	margin: 0px 5px 0px 10px;
 }
 
 .LibraryItemContainer .LibraryItemBodyElements svg.ArrowIcon.Right {
@@ -76,6 +76,10 @@ button {
 
 .LibraryItemContainer .LibraryItemBodyElements svg.ArrowIcon.Down {
 	rotate: 90deg;
+}
+
+.LibraryItemContainer .LibraryItemBodyElements svg.ArrowIcon.Up {
+	rotate: 270deg;
 }
 
 .LibraryItemContainerGroup {
@@ -97,7 +101,7 @@ button {
 }
 
 .LibraryItemContainerGroup.expanded .LibraryItemBodyContainer .LibraryItemBodyElements.BodyIndentation{
-	padding-left: 2.9rem;
+	padding-left: 0rem;
 }
 
 .LibraryItemContainerNone {
@@ -154,7 +158,7 @@ button {
 
 .LibraryItemHeader:hover,
 .LibrarySectionHeader:hover {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgb(14 165 233);
 }
 
 .LibraryItemBodyElements {
@@ -222,7 +226,7 @@ button {
 }
 
 .LibraryItemContainerCategory .LibraryItemText {
-	color: #ade4de;
+	color: white;
 }
 
 .LibraryItemContainerNone .LibraryItemText {
@@ -268,9 +272,10 @@ button {
 
 .LibraryItemBody > .LibraryItemContainerGroup > .LibraryItemHeader,
 .LibraryItemBody > .LibraryItemContainerNone > .LibraryItemHeader {
-	border: solid #999999 2px;
-	border-style: dashed;
+	/* border: solid #999999 2px;
+	border-style: dashed; */
 	border-right: 0px;
+	margin-left: 8.8px;
 	border-top: 0px;
 	border-bottom: 0px;
 	position: relative;
@@ -283,8 +288,9 @@ button {
 	content: "";
 	height: 1rem;
 	width: 1.4rem;
-	border: solid #999999 2px;
-	border-style: dashed;
+	margin-left: 8.8px;
+	/* border: solid #999999 2px;
+	border-style: dashed; */
 	border-right: 0px;
 	border-top: 0px;
 	border-left: 0px;
@@ -330,7 +336,7 @@ button {
 
 .LibraryItemBodyContainer .LibraryItemBodyElements .LibraryItemBody .ClusterViewContainer .ClusterLeftPane {
 	width: 2.75rem;
-	margin-left: 1.5rem;
+	margin-left: 0rem;
 }
 
 .ClusterLeftPane {
