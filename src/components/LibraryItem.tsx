@@ -140,7 +140,6 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
 
             // Break item list down into sub-lists based on the type of each item.
             let groupedItems = new GroupedItems(LibraryUtilities.sortItemsByText(this.props.data.childItems));
-            console.log(groupedItems);
 
             // There are some leaf nodes (e.g. methods).
             clusteredElements = this.getClusteredElements(groupedItems);
