@@ -143,7 +143,6 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
 
             // There are some leaf nodes (e.g. methods).
             clusteredElements = this.getClusteredElements(groupedItems);
-            
 
             // There are intermediate child items.
             nestedElements = this.getNestedElements(groupedItems);
@@ -161,7 +160,9 @@ export class LibraryItem extends React.Component<LibraryItemProps, LibraryItemSt
                 <div className={"LibraryItemBodyContainer"}>
                     
                     <div className={`LibraryItemBodyElements`} >
-                        {clusteredElements}
+                        {/* {clusteredElements} */}
+                        
+                        
                         {nestedElements}
                     </div>
                 </div>
